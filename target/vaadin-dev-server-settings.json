@@ -1,0 +1,17 @@
+{
+  "frontendFolder": "C:/Users/panka/OneDrive/Dokumenty/IT-Projekty/manageIT/./src/main/frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "C:/Users/panka/OneDrive/Dokumenty/IT-Projekty/manageIT/./src/main/frontend/generated/jar-resources",
+  "staticOutput": "C:/Users/panka/OneDrive/Dokumenty/IT-Projekty/manageIT/target/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "C:\\Users\\panka\\OneDrive\\Dokumenty\\IT-Projekty\\manageIT\\target\\classes\\META-INF\\VAADIN\\config",
+  "frontendBundleOutput": "C:\\Users\\panka\\OneDrive\\Dokumenty\\IT-Projekty\\manageIT\\target\\classes\\META-INF\\VAADIN\\webapp",
+  "devBundleOutput": "C:/Users/panka/OneDrive/Dokumenty/IT-Projekty/manageIT/target/dev-bundle/webapp",
+  "devBundleStatsOutput": "C:/Users/panka/OneDrive/Dokumenty/IT-Projekty/manageIT/target/dev-bundle/config",
+  "jarResourcesFolder": "C:/Users/panka/OneDrive/Dokumenty/IT-Projekty/manageIT/./src/main/frontend/generated/jar-resources",
+  "themeName": "my-app",
+  "clientServiceWorkerSource": "C:\\Users\\panka\\OneDrive\\Dokumenty\\IT-Projekty\\manageIT\\target\\sw.ts",
+  "pwaEnabled": false,
+  "offlineEnabled": false,
+  "offlinePath": "'offline.html'"
+}
