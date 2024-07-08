@@ -1,17 +1,9 @@
 package com.mas.manageIT.mapper;
 
-import com.mas.manageIT.associacion_manager.ObjectPlus;
-import com.mas.manageIT.associacion_manager.ObjectPlusPlus;
-import com.mas.manageIT.entity.WarehouseEntity;
 import com.mas.manageIT.entity.WarehouseManagerEntity;
-import com.mas.manageIT.model.Customer;
-import com.mas.manageIT.model.Warehouse;
 import com.mas.manageIT.model.WarehouseManager;
 import org.junit.platform.commons.logging.Logger;
 import org.junit.platform.commons.logging.LoggerFactory;
-
-import java.util.List;
-import java.util.Optional;
 
 public class WarehouseManagerMapper {
 
