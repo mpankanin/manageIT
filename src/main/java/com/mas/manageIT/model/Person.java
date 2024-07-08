@@ -1,6 +1,5 @@
 package com.mas.manageIT.model;
 
-import com.mas.manageIT.associacion_manager.ObjectPlusPlus;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
@@ -8,14 +7,13 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
-
 import java.time.LocalDate;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(callSuper = false)
-public abstract class Person extends ObjectPlusPlus {
+public abstract class Person {
 
     private Long id;
 
@@ -40,7 +38,5 @@ public abstract class Person extends ObjectPlusPlus {
     private Boolean isPregnant;
 
     public abstract String getType();
-
-    public abstract Boolean isMale();
 
 }

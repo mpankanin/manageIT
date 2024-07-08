@@ -23,9 +23,4 @@ public class TeamMember extends Employer{
         return TeamMember.class.getName();
     }
 
-    @Override
-    public Boolean isMale() {
-        return super.getIsArmyMember() != null && super.getIsArmyMember();
-    }
-
 }

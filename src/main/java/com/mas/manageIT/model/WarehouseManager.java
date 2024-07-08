@@ -17,15 +17,9 @@ public class WarehouseManager extends Employer {
 
     private LocalDate forkliftLicense;
 
-
     @Override
     public String getType() {
         return this.getClass().getSimpleName();
-    }
-
-    @Override
-    public Boolean isMale() {
-        return super.getIsArmyMember() != null && super.getIsArmyMember();
     }
 
 }

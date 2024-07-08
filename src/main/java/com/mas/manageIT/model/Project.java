@@ -1,6 +1,5 @@
 package com.mas.manageIT.model;
 
-import com.mas.manageIT.associacion_manager.ObjectPlusPlus;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -12,7 +11,7 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(callSuper = false)
-public class Project extends ObjectPlusPlus {
+public class Project {
 
     private Long id;
 
@@ -23,10 +22,5 @@ public class Project extends ObjectPlusPlus {
     private LocalDate startDate;
 
     private LocalDate finishDate;
-
-
-    public void assign(ProjectTeam projectTeam){
-        projectTeam.addLink("ProjectTeamProject", "ProjectProjectTeam", this);
-    }
 
 }

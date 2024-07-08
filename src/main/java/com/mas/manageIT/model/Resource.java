@@ -1,6 +1,5 @@
 package com.mas.manageIT.model;
 
-import com.mas.manageIT.associacion_manager.ObjectPlusPlus;
 import com.mas.manageIT.model.enums.ResourceType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -13,7 +12,7 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(callSuper = false)
-public class Resource extends ObjectPlusPlus {
+public class Resource {
 
     private Long id;
 

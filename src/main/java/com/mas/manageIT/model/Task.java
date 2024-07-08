@@ -1,6 +1,5 @@
 package com.mas.manageIT.model;
 
-import com.mas.manageIT.associacion_manager.ObjectPlusPlus;
 import com.mas.manageIT.model.enums.TaskType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -13,7 +12,7 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(callSuper = false)
-public class Task extends ObjectPlusPlus {
+public class Task {
 
     private Long id;
 
