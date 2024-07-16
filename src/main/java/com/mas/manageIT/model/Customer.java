@@ -19,9 +19,4 @@ public class Customer extends Person {
         return this.getClass().getSimpleName();
     }
 
-    @Override
-    public Boolean isMale() {
-        return super.getIsArmyMember() != null && super.getIsArmyMember();
-    }
-
 }

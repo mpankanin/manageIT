@@ -17,7 +17,3 @@ spring:
     password: admin
     driver-class-name: org.postgresql.Driver
 
-
-vaadin:
-  launch-browser: true
-  allowed-packages: com.vaadin,org.vaadin,com.example.application
